@@ -1,3 +1,3 @@
 # Gptwarrior
 
-![](https://gptwarriors.live/run.gif)
+![](https://www.gptwarriors.live/run.gif)
