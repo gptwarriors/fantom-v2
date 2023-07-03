@@ -1,0 +1,24 @@
+{
+  "name": "game-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=17.3.0 <17.4.0"
+  },
+  "dependencies": {
+    "@adraffy/ens-normalize": "^1.9.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "ethers": "^5.0.0",
+    "express": "^4.18.2",
+    "express-ws": "^5.0.2",
+    "node-fetch": "^2.6.11",
+    "nodemon": "^2.0.22"
+  }
+}

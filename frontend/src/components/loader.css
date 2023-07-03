@@ -1,0 +1,75 @@
+#loader {
+  
+  margin-top:25%;
+  display:absolute;
+}
+#text {
+  display:none;
+ margin-top:35%;
+}
+
+.text-bold {
+  text-align:center;
+  font-size: 45px;
+  color:rgba(0,255,0,1);
+  text-emphasis: 10;
+  margin-top: 20px;
+  animation: fade 5s linear infinite;
+  text-shadow:
+  -1px -1px 0 #0000, /* Top-left shadow */
+  1px -1px 0 #0000, /* Top-right shadow */
+  -1px 1px 0 #000, /* Bottom-left shadow */
+  1px 1px 0 #0000; /* Bottom-right shadow */
+}
+
+
+.text-bold2 {
+  text-align:center;
+  font-size: 15px;
+  color:rgba(0,255,0,1);
+  text-emphasis: 10;
+  margin-top: 20px;
+ 
+  text-shadow:
+  -1px -1px 0 #0000, /* Top-left shadow */
+  1px -1px 0 #0000, /* Top-right shadow */
+  -1px 1px 0 #000, /* Bottom-left shadow */
+  1px 1px 0 #0000; /* Bottom-right shadow */
+}
+@keyframes fade {
+  0%{color:rgba(0,255,0,1);}
+  50%{color:rgba(0,255,0,0);}
+}
+
+
+.outer {
+  margin: auto;
+  border: 16px solid rgba(0,0,0,0); 
+  border-top: 16px solid #29b7e8; 
+  border-bottom: 16px solid #29b7e8;
+  border-radius: 50%;
+  border-style: double;
+  width: 125px;
+  height: 125px;
+  animation: spin 5s linear infinite;
+  
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.inner {
+  margin:auto;
+  border: 15px solid rgba(0,0,0,0); 
+  border-top: 15px solid #23cbb4;
+  border-bottom: 15px solid #23cbb4;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin2 1.5s linear infinite;
+  
+}
+@keyframes spin2 {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(-360deg); }
+}
