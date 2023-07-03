@@ -1,3 +1,3 @@
-# fantom-v2
+# Gptwarrior
 
 ![](https://gptwarriors.live/run.gif)
